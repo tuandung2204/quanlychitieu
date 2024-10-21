@@ -1,0 +1,9 @@
+a:link { /* Liên kết chưa được truy cập */
+    font-size: 24px; /* Thay đổi kích thước chữ tùy ý */
+    color: #000000; /* Thay đổi màu chữ tùy ý */
+    text-decoration: none; /* Bỏ gạch chân */
+  }
+  
+  a:hover { /* Khi di chuột vào */
+    color: #157ceb; /* Thay đổi màu khi hover */
+  }
