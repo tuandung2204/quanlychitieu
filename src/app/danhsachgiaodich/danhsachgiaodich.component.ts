@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,input,Input } from '@angular/core';
 import { DanhSachGiaoDich } from '../danhsachgiaodich';
 import { AppComponent } from '../app.component';
 import { CommonModule } from '@angular/common';
@@ -12,7 +12,8 @@ import { CommonModule } from '@angular/common';
   styleUrl: './danhsachgiaodich.component.css'
 })
 export class DanhsachgiaodichComponent {
-  danhsachgiaodich : DanhSachGiaoDich = {
+  @Input() giaodich : DanhSachGiaoDich[] = [
+  {
     id : 1 ,
     magiaodich : 1 ,
     tenkhoantien : 'Tiền Lương' ,
@@ -20,5 +21,15 @@ export class DanhsachgiaodichComponent {
     thoigian : 25/12/2023 ,
     loaigiaodich: 1 ,
     ghichu: ''
-};
+  },
+  {
+    id : 2 ,
+    magiaodich : 2 ,
+    tenkhoantien : 'Tiền ăn' ,
+    sotien : 20000 ,
+    thoigian : 25/12/2023 ,
+    loaigiaodich: 2 ,
+    ghichu: ''
+  }
+]
 }
