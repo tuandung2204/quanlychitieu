@@ -1,0 +1,17 @@
+<main>
+    <header class="brand-name d-flex align-items-center">
+        <img class="brand-logo" style="width: 100px; height: 100px; object-fit: cover; margin-left: 120px"
+            src="https://media.istockphoto.com/id/931069328/vector/icon-for-fundraising-business-loan-money-save-money-and-other-financial-management.jpg?s=612x612&w=0&k=20&c=0BQGJcwUAkP8enU8z5AnuIK4v0fe89YPWg6-Ts1a3fM="
+            alt="logo" aria-hidden="true">
+        <h1 class="ms-3" style="font-family: Arial, Helvetica, sans-serif;">Expense management</h1>
+    </header>
+    <section class="content">
+        <div class="d-flex justify-content-around">
+            <app-danhsachgiaodich class="p-5"></app-danhsachgiaodich>
+            <app-thongke class="p-5"></app-thongke>
+            <app-dangnhap class="p-5"></app-dangnhap>
+        </div>
+
+        <router-outlet></router-outlet> <!-- This is where components will be injected -->
+    </section>
+</main>
