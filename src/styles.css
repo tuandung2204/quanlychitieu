@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('https://media.istockphoto.com/id/1367756024/vi/vec-to/minh-h%E1%BB%8Da-n%E1%BB%81n-m%C3%A0u-n%C6%B0%E1%BB%9Bc-m%C3%A0u-xanh-l%C3%A1-c%C3%A2y.jpg?s=612x612&w=0&k=20&c=lVPjGrTBEsHShbAsIfGMzLKaf-QRlam2XAQ-eL-CkU8=');
+    background-size: cover; /* Điều chỉnh kích thước hình nền */
+    background-repeat: no-repeat; /* Loại bỏ lặp lại hình nền */
+    background-position: center; /* Căn giữa hình nền */
+  }

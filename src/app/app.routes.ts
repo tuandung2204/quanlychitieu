@@ -1,17 +1,19 @@
 import { Routes } from '@angular/router';
-import { ChitietComponent } from './chitiet/chitiet.component';
 import { DanhsachgiaodichComponent } from './danhsachgiaodich/danhsachgiaodich.component';
+import { DangnhapComponent } from './dangnhap/dangnhap.component';
+import { ThongtindangnhapComponent } from './thongtindangnhap/thongtindangnhap.component';
+import { AppComponent } from './app.component';
 
 const routerConfig: Routes = [
     {
         path: '',
-        component: DanhsachgiaodichComponent,
-        title: 'Danh sách'
+        component: AppComponent,
+        title: 'Home '
     },
     {
-        path: 'chitiet\id',
-        component: ChitietComponent,
-        title: 'Chi tiết giao dịch'
+        path: 'thongtindangnhap\id',
+        component: ThongtindangnhapComponent,
+        title: 'Thông tin đăng nhập'
     }
 
 ];

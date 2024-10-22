@@ -1,6 +1,6 @@
 
 
-export interface DanhSachGiaoDich {
+export interface Danhsachgiaodichchitiet {
     id : number;
     magiaodich : number;
     tenkhoantien : string;
